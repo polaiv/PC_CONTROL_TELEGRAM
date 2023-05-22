@@ -90,11 +90,6 @@ def welcome(message):
         window.geometry('500x300')
         window.mainloop()
 
-# @bot.message_handler(content_types=['clear'])
-# def clear(message):
-#     bot.send_message(message.chat.id, message.id)
-    # bot.send_message(chat_id=message.chat.id, message_thread_id=message1)
-
 
 
 
@@ -136,12 +131,9 @@ def greeting(message):
 
         elif message.text == '🔇Mute':
             bot.send_message(message.chat.id, "Done")
-            # print("Copyright (c) 2014 - %d | Paradoxis" % date.today().year)
+
             Sound.mute()
 
-        # elif message.text == '🔉Unmute':
-        #     bot.send_message(message.chat.id, "Done")
-        #     Sound.mute()l
 
         elif message.text == '🖼️Screen':
             screenshot = pyautogui.screenshot()
@@ -231,7 +223,7 @@ def greeting(message):
                 'RAMSH': 'RAM: {0} GB'.format(math.ceil(system_ram)),
                 'GRAPHIC': 'Graphics Card: {0}'.format(gpu_info.Name)
             }
-            # bot.send_message(message.chat.id, f'{dict_system.items()} + \n')
+
             dict_system_items = dict_system.items()
 
             for key, value in dict_system_items:
