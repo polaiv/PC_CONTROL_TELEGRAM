@@ -378,7 +378,7 @@ def chatGPT_fn(message):
 def welcome(message):
 
     user_id = message.from_user.id
-    if user_id == 963117168:
+    if user_id == "your id telegram":
     # message1 = bot.send_message(message.chat.id, message.id)
     # bot.delete_message(message.chat.id, message1)
 
@@ -445,7 +445,7 @@ def greeting(message):
     user_id = message.from_user.id
 
     if message.chat.type == 'private':
-        if user_id == 963117168:
+        if user_id == "your id telegram":
             if message.text == '🖼️Медиа':
 
                 markup_media = types.ReplyKeyboardMarkup(resize_keyboard=True, row_width=1)
