@@ -1,8 +1,8 @@
-You can control your computer remotely using Telegram
-Opportunities:
-Control the sound
-Watch what happens on the screen
-Listen to the microphone
+# You can control your computer remotely using Telegram
+## Opportunities:
+- Control the sound
+- Watch what happens on the screen
+- Listen to the microphone
 
 And other functions related to remote access
 
